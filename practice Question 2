@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+typedef struct school
+{
+    int rollNo ;
+    string name;
+    string sub;
+}p;
+
+int main()
+{
+      p  A = {.rollNo = 10 , .name = "Adarsha Kumar" , .sub = "mathematics"};
+   
+    
+    cout << A.rollNo <<" "
+         << A.name <<" "
+         <<A.sub;
+    
+    return 0;
+}
